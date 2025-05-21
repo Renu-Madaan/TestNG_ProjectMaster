@@ -8,7 +8,7 @@ public class Day1 {
 
 		@BeforeTest
 		public void bus() {
-			System.out.println("This is my old Car");
+			System.out.println("This is my old Car1");
 		}
 
 		@AfterTest
