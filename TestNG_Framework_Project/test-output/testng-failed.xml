@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestExcel(failed)">
+    <parameter name=" browser " value="chrometest"/>
+    <classes>
+      <class name="Parameterization2ExcelDemo.DataproviderExcel">
+        <methods>
+          <include name="testLogo"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testTitle"/>
+          <include name="testURL"/>
+        </methods>
+      </class> <!-- Parameterization2ExcelDemo.DataproviderExcel -->
+    </classes>
+  </test> <!-- TestExcel(failed) -->
+</suite> <!-- Failed suite [Suite] -->
